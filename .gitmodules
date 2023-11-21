@@ -1,0 +1,12 @@
+[submodule "vsg-dev/VulkanSceneGraph"]
+	path = vsg-dev/VulkanSceneGraph
+	url = https://github.com/vsg-dev/VulkanSceneGraph.git
+[submodule "vsg-dev/vsgXchange"]
+	path = vsg-dev/vsgXchange
+	url = https://github.com/vsg-dev/vsgXchange.git
+[submodule "vsg-dev/vsgImGui"]
+	path = vsg-dev/vsgImGui
+	url = https://github.com/vsg-dev/vsgImGui.git
+[submodule "vsg-dev/vsgExamples"]
+	path = vsg-dev/vsgExamples
+	url = https://github.com/vsg-dev/vsgExamples.git
