@@ -22,8 +22,6 @@ else()
     #add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
 
-include(scripts/copy.cmake)
-
 # Vulkan_Debug
 add_definitions(-DVULKAN_DEBUG_INFO=1)
 add_definitions(-DvsgXchange_FOUND=1)

@@ -104,3 +104,4 @@ file(COPY ${VSG_SOURCE_DIR}/include/vsg
 file(COPY ${VSG_VERSION_HEADER}
         DESTINATION ${INSTALL_DIRECTORY}/vsg/core )
 vsg_add_feature_summary()
+#MESSAGE(FATAL_ERROR "assimp")
