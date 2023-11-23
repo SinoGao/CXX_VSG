@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.12)
+set(BUILD_SHARED_LIBS OFF)
+set(ASSIMP_BUILD_ZLIB ON)
+set(ASSIMP_BUILD_TESTS OFF)
+set(ASSIMP_INSTALL OFF)
+set(ASSIMP_INSTALL_PDB OFF)
+add_subdirectory(assimp)
+
+SET( HEADER_PATH ${CMAKE_CURRENT_SOURCE_DIR}/assimp/include/ )
+
+set(INSTALL_DIRECTORY "${CMAKE_BINARY_DIR}/include")
+
+SET( ASSIMP_CONFIG_PATH ${CMAKE_CURRENT_BINARY_DIR}/assimp/include/assimp/config.h )
+
+#message(FATAL_ERROR ${CMAKE_CURRENT_BINARY_DIR}/../include/assimp/config.h)
+file(COPY ${HEADER_PATH}
+        DESTINATION ${INSTALL_DIRECTORY} )
+
+#message(FATAL_ERROR ${ASSIMP_CONFIG_PATH})
+file(COPY ${ASSIMP_CONFIG_PATH}
+        DESTINATION ${INSTALL_DIRECTORY}/assimp )
+
