@@ -1,6 +1,6 @@
 [submodule "vsg-dev/CXX_vsgExamples/vsgExamples"]
 	path = vsg-dev/CXX_vsgExamples/vsgExamples
-	url = https://github.com/vsg-dev/vsgExamples.git
+	url = https://github.com/SinoGao/vsgExamples.git
 [submodule "vsg-dev/CXX_assimp/assimp"]
 	path = vsg-dev/CXX_assimp/assimp
 	url = https://github.com/SinoGao/assimp.git
