@@ -1,6 +1,12 @@
-[submodule "vsg-dev/CXX_vsgXchange/vsgXchange"]
-	path = vsg-dev/CXX_vsgXchange/vsgXchange
-	url = https://github.com/vsg-dev/vsgXchange.git
 [submodule "vsg-dev/CXX_vsgExamples/vsgExamples"]
 	path = vsg-dev/CXX_vsgExamples/vsgExamples
 	url = https://github.com/vsg-dev/vsgExamples.git
+[submodule "vsg-dev/CXX_assimp/assimp"]
+	path = vsg-dev/CXX_assimp/assimp
+	url = https://github.com/SinoGao/assimp.git
+[submodule "vsg-dev/CXX_VulkanSceneGraph/VulkanSceneGraph"]
+	path = vsg-dev/CXX_VulkanSceneGraph/VulkanSceneGraph
+	url = https://github.com/SinoGao/VulkanSceneGraph.git
+[submodule "vsg-dev/CXX_vsgXchange/vsgXchange"]
+	path = vsg-dev/CXX_vsgXchange/vsgXchange
+	url = https://github.com/SinoGao/vsgXchange.git
